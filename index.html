@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,33 +7,40 @@
     <style>
       .tabel {
         width: 100%;
-        height: 600px;
+        height: 100%;
       }
-      .color {
-        background-color: aqua;
+      .header {
+        height: 50px;
+        background-color: gray;
+        display: flex;
+        justify-content: flex-start;
+      }
+      .footer {
+        height: 50px;
+        background-color: gray;
       }
       .column2 {
         background-color: hotpink;
       }
     </style>
-    <title>Document</title>
+    <title>clone santren koding</title>
   </head>
-  <body>
-    <table border="1" class="tabel">
-      <tr>
-        <td colspan="3" class="color">
-          Head
-        </td>
-      </tr>
+  <body style="height: 100%;">
+    <header class="header">
+      Santren Koding
+    </header>
+    <table class="tabel">
       <tr>
         <td>1 col fdjfijdifjdifjidjfidjf</td>
         <td colspan="2" class="column2">
           2 col jfudhfudhfudhfudhfudfhudhfudfhudhfudfhudhfudfhu
         </td>
       </tr>
-      <tr>
-        <td colspan="3" class="color">Footer</td>
-      </tr>
     </table>
+
+    <footer class="footer">
+      Footer
+    </footer>
   </body>
+  <script></script>
 </html>
